@@ -1,0 +1,22 @@
+
+import math
+def num_ways(N){
+	int final = 0;
+	def helper(N, numstep, spot){
+		int check = 0;
+		int returnvalue = 0;
+		int steps = numstep;
+		int newspot = spot;
+		while check != N{
+			check += helper(N, numstep, spot += numstep);
+
+		}
+		returnvalue = 1;
+		return returnvalue;
+	}
+
+final = helper(N, 1, 0) + helper(N, 2, 0);
+
+
+
+}
