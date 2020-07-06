@@ -1,0 +1,14 @@
+function KnapSack(n, W):
+	allocate M[1...n, 1...W] 
+	initialize M[0,w] = 0 for each w = 1 to W 
+		for i = 1 to n
+ 			for w = 1 to W 
+				if wi[i] > w 
+					M[i,w] = M[i-1,w] 
+				else 
+					M[i,w] = max(M[i-1,w], vi[i] + M[i-1,w-wi[i]]) 
+			end if 
+		end for 
+	end for 
+	return M[n,W],
+end function
