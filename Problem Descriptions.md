@@ -14,3 +14,5 @@ Two Sum - Problem from Leetcode (https://leetcode.com/problems/two-sum/), return
 Palindrome Number - Problem from LEetcode (https://leetcode.com/problems/palindrome-number/), check if a number is a palindrome or not.
 
 Running Median - Problem from Daily Coding Problem, print out the median at each interval of a stream of numbers
+
+Jewels and Stones - From Leetcode (https://leetcode.com/problems/jewels-and-stones/), returns the number of jewels in string J found in string S
